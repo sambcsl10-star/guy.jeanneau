@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>guy.jeanneau - Mi Sitio Personal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navegación -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">guy.jeanneau</div>
+            <ul class="nav-links">
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#galeria">Galería</a></li>
+                <li><a href="#videos">Videos</a></li>
+                <li><a href="#sobre-mi">Sobre Mí</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Bienvenido a mi Mundo</h1>
+            <p>Comparte mis momentos, fotos y videos especiales</p>
+            <button class="btn" onclick="document.getElementById('galeria').scrollIntoView({behavior: 'smooth'})">Explorar</button>
+        </div>
+    </section>
+
+    <!-- Galería de Fotos -->
+    <section id="galeria" class="galeria">
+        <div class="container">
+            <h2>Mi Galería de Fotos</h2>
+            <div class="galeria-grid">
+                <div class="galeria-item">
+                    <img src="https://via.placeholder.com/300x300?text=Foto+1" alt="Foto 1">
+                    <p>Momento especial</p>
+                </div>
+                <div class="galeria-item">
+                    <img src="https://via.placeholder.com/300x300?text=Foto+2" alt="Foto 2">
+                    <p>Aventura</p>
+                </div>
+                <div class="galeria-item">
+                    <img src="https://via.placeholder.com/300x300?text=Foto+3" alt="Foto 3">
+                    <p>Momento feliz</p>
+                </div>
+                <div class="galeria-item">
+                    <img src="https://via.placeholder.com/300x300?text=Foto+4" alt="Foto 4">
+                    <p>Recuerdo</p>
+                </div>
+                <div class="galeria-item">
+                    <img src="https://via.placeholder.com/300x300?text=Foto+5" alt="Foto 5">
+                    <p>Viaje</p>
+                </div>
+                <div class="galeria-item">
+                    <img src="https://via.placeholder.com/300x300?text=Foto+6" alt="Foto 6">
+                    <p>Diversión</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Videos -->
+    <section id="videos" class="videos">
+        <div class="container">
+            <h2>Mis Videos</h2>
+            <div class="videos-grid">
+                <div class="video-item">
+                    <iframe width="100%" height="300" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
+                    <p>Mi primer video</p>
+                </div>
+                <div class="video-item">
+                    <iframe width="100%" height="300" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
+                    <p>Video 2</p>
+                </div>
+                <div class="video-item">
+                    <iframe width="100%" height="300" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
+                    <p>Video 3</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre Mí -->
+    <section id="sobre-mi" class="sobre-mi">
+        <div class="container">
+            <h2>Sobre Mí</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Hola, soy guy.jeanneau. Este es mi espacio personal donde comparto mis momentos, aventuras y experiencias a través de fotos y videos. Me encanta capturar los momentos especiales de la vida y compartirlos con quienes me rodean.</p>
+                    <p>En este sitio encontrarás una colección de mis mejores fotos y videos, que reflejan mis pasiones, intereses y las personas que amo.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="contacto">
+        <div class="container">
+            <h2>Contacto</h2>
+            <form class="contact-form">
+                <input type="text" placeholder="Tu nombre" required>
+                <input type="email" placeholder="Tu email" required>
+                <textarea placeholder="Tu mensaje" rows="5" required></textarea>
+                <button type="submit" class="btn">Enviar Mensaje</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 guy.jeanneau - Todos los derechos reservados</p>
+            <div class="social-links">
+                <a href="#">Facebook</a>
+                <a href="#">Instagram</a>
+                <a href="#">Twitter</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
